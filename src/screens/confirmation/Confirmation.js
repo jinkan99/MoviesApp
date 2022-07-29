@@ -97,10 +97,10 @@ const Confirmation = (props) => {
   };
 
   const { classes } = props;
-
+  const url = "/confirm/";
   return (
     <div className="Details">
-      <Header />
+      <Header url={url} />
 
       <div className="confirmation marginTop16">
         <div>
