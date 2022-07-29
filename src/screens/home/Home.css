@@ -1,0 +1,23 @@
+#sub-heading{
+  text-align: center;
+  background: #ff9999;
+  font-size: 1rem;
+  padding: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#released-movie-poster{
+  width: 250px;
+}
+
+img[id="released-movie-poster"]:hover{
+  cursor: pointer;
+}
+
+#apply-btn{
+  margin-left: 15px;
+  margin-right: 12px;
+  margin-bottom: 10px;
+  width: 232px;
+}
