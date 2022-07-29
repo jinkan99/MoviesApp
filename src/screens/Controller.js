@@ -7,7 +7,6 @@ import Confirmation from "../screens/confirmation/Confirmation";
 
 const Controller = () => {
   const baseUrl = "/api/v1/";
-
   return (
     <Router>
       <div className="main-container">
