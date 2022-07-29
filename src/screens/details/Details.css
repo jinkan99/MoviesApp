@@ -1,0 +1,67 @@
+.back-btn{
+  margin-top: 8px;
+  margin-bottom: 0;
+  margin-left: 24px;
+  height: 24px;
+}
+
+.back-button:hover{
+    cursor: pointer;
+}
+
+.sub-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.movie-poster{
+  margin-left: 24px;
+  width: 250px;
+  flex: 2;
+}
+
+#poster{
+  width: 250px;
+}
+
+.movie-details{
+  margin-left: 45px;
+  flex: 6;
+}
+
+.rating-artists-details{
+  margin-left: 20px;
+  flex: 2;
+}
+
+.movie-info{
+  margin-bottom: 30px;
+}
+
+h3{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ratings{
+  margin-bottom: 30px;
+}
+
+.artists{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#artist-poster{
+  width: 120px;
+  height: 150px;
+}
+
+.yellow{
+  color: yellow !important ;
+}
