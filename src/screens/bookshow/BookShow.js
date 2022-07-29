@@ -191,9 +191,10 @@ const BookShow = (props) => {
     });
   };
 
+  const url = "/bookshow/";
   return (
     <div>
-      <Header baseUrl={props.baseUrl} />
+      <Header baseUrl={props.baseUrl} url={url} />
       <div className="bookShow">
         <Typography className="back">
           <Link to={"/movie/" + props.match.params.id}>
@@ -285,9 +286,7 @@ const BookShow = (props) => {
             <br />
             <Typography>Unit Price: Rs. {unitPrice}</Typography>
             <br />
-            <Typography>
-              Total Price: Rs. {unitPrice * tickets}
-            </Typography>
+            <Typography>Total Price: Rs. {unitPrice * tickets}</Typography>
             <br />
             <br />
             <Button
